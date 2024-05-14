@@ -1,0 +1,13 @@
+# 運行模式(debug:調試,test:測試,release:正式)
+RunMode = "debug"
+
+[ProjectInfo]
+Id = 1
+Name = "akmain"
+
+
+[HTTP]
+# http監聽連接埠
+Port = 8080
+# http優雅關閉等待超時時長(單位秒)
+ShutdownTimeout = 30
